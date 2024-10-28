@@ -267,6 +267,10 @@ tbody td:first-child {
     border: none;
 }
 
+.citacao{
+    padding-left: 20%;
+}
+
 .carousel-control-prev {
     background: url('../images/seta_esq.svg') no-repeat;
     left: -130px;

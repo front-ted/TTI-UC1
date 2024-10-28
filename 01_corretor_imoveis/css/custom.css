@@ -1,0 +1,33 @@
+body{
+    background: url('../img/elemento_esquerda.png') left 80% no-repeat fixed,
+    url('../img/elemento_direita.png') 98% 25% no-repeat fixed,
+    url('../img/bg.png') no-repeat fixed  !important;
+    background-size: 15%, 12%, cover !important;
+}
+
+.mt-n5 {
+    margin-top: -80px;
+  }
+
+  .destaque01{
+    background: url('../img/fundo_destaque.png') no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+  }
+
+  .paragrafodestaque01{
+    max-width: 50%;
+    padding: 10px 0px 0px 10px;
+  }
+
+  .paragrafodestaque01 p{
+    width: 70%;
+  }
+
+  .img-selo_presencial{
+    max-width: 200px;
+    margin-top: 40px;
+  }
