@@ -1,0 +1,105 @@
+body{
+    background: url("../img/bg.png") no-repeat fixed;
+}
+
+.bloco-paralax {
+    width: 100%;
+    height: 400px;
+    background: url(../img/transicao1.png);
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+
+.destaque-extinsao{
+    max-width: 80%;
+    margin: auto;
+    background: url('../img/fundo_destaque.png') no-repeat;
+    border: 1px solid red;
+    padding: 150px;
+}
+
+/* painel-codigo-civil */
+
+.painel-codigo-civil{
+    border: 1px solid red;
+    width: fit-content;
+    margin: auto;
+}
+
+.btn__painel-codigo-civil{
+    background: transparent;
+}
+
+/* painel COFECI */
+
+.painel-COFECI{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.btn__painel-COFECI{
+    background: transparent;
+    border: none;
+    color: transparent;
+    
+    
+}
+
+.btn-COFECI327{
+    height: 276px;
+    width: 201px;
+    background: url('../img/bt1.png');
+}
+
+.btn-COFECI327:hover{
+    background: url('../img/bt1_hv.png');
+    transition: 0.5s ease;
+}
+
+.btn-COFECI1065{
+    height: 276px;
+    width: 201px;
+    background: url('../img/bt2.png');
+}
+
+.btn-COFECI1065:hover{
+    background: url('../img/bt2_hv.png');
+    transition: 0.5s ease;
+
+}
+
+.btn-COFECI458{
+    height: 276px;
+    width: 205px;
+    background: url('../img/bt3.png');
+}
+
+.btn-COFECI458:hover{  
+    background: url('../img/bt3_hv.png');
+}
+
+.bloco-paralax2 {
+    width: 100%;
+    height: 400px;
+    background: url(../img/transicao2.png);
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+
+
+.destaque-centralizado{
+    max-width: 70%;
+    margin: auto;
+}
+
+.bloco-paralax3 {
+    width: 100%;
+    height: 400px;
+    background: url(../img/transicao3.png);
+    background-size: cover;
+    background-attachment: fixed !important;
+}

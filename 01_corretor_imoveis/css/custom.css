@@ -19,7 +19,7 @@ body{
   }
 
   .paragrafodestaque01{
-    max-width: 50%;
+    max-width: 70%;
     padding: 10px 0px 0px 10px;
   }
 
@@ -69,12 +69,3 @@ body{
 
   
 }
-
-/* .destaque01{
-  background: url('../img/fundo_destaque.png') no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  height: 500px;
-  align-items: center;
-} */
