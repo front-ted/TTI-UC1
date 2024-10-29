@@ -31,3 +31,50 @@ body{
     max-width: 200px;
     margin-top: 40px;
   }
+
+  .paragrafo-linha-tempo{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  @media only screen and (max-width:1400px) {
+
+    body{
+      background: none,
+      none,
+      url('../img/bg.png') no-repeat fixed  !important;
+      background-size: unset, unset, cover !important;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+
+  .destaque01{
+    flex-direction: column;
+    height: auto;
+    background-size: cover;
+    align-items: center;
+    width: 500px;
+  }
+
+  .paragrafodestaque01{
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .paragrafodestaque01 p{
+    width: 100%;
+  }
+
+  
+}
+
+/* .destaque01{
+  background: url('../img/fundo_destaque.png') no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+} */
