@@ -1,0 +1,9 @@
+.bloco1, .bloco3{
+    background-color: aqua;
+    padding: 50px 0px;
+}
+
+.bloco2{
+    padding:50px 50px;
+    background-color: burlywood;
+}

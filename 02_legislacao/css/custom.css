@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'Mynerve-Regular';
+    src:url("../font/Mynerve-Regular.ttf");
+}
+
 body{
     background: url("../img/bg.png") no-repeat fixed;
 }
@@ -10,25 +15,13 @@ body{
     background-attachment: fixed !important;
 }
 
-.destaque-extinsao{
+.destaque-extincao{
     max-width: 80%;
     margin: auto;
     background: url('../img/fundo_destaque.png') no-repeat;
     border: 1px solid red;
-    padding: 150px;
 }
 
-/* painel-codigo-civil */
-
-.painel-codigo-civil{
-    border: 1px solid red;
-    width: fit-content;
-    margin: auto;
-}
-
-.btn__painel-codigo-civil{
-    background: transparent;
-}
 
 /* painel COFECI */
 
@@ -80,6 +73,7 @@ body{
 
 .btn-COFECI458:hover{  
     background: url('../img/bt3_hv.png');
+    transition: 0.5s ease;
 }
 
 .bloco-paralax2 {
@@ -103,3 +97,41 @@ body{
     background-size: cover;
     background-attachment: fixed !important;
 }
+
+
+
+
+.grafismo-exagono{position: relative;}
+.grafismo-exagono::after{
+    content: '';
+    display: block;
+    background: url('../img/hexagono_ripado.svg') no-repeat;
+    height: 211px;
+    width: 211px;
+    top: -80px;
+    right: -110px;
+    position: absolute;
+}
+
+.grafismo-estrela{position: relative;}
+.grafismo-estrela::after{
+    content: '';
+    display: block;
+    background: url('../img/losango_ripado.svg') no-repeat;
+    height: 211px;
+    width: 211px;
+    bottom: -100px;
+    left: -110px;
+    position: absolute;
+}
+
+.marcador-asterisco{
+    list-style-image: url('../img/marcador.png');
+    
+}
+
+.marcador-asterisco li{    
+    font-family: Mynerve-Regular;
+    color: #004787;
+}
+
