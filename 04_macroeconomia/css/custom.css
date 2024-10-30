@@ -1,0 +1,22 @@
+.bloco1, .bloco3, .bloco5{
+    background-color: aqua;
+    padding: 50px;
+}
+
+.bloco2, .bloco4, .bloco6{
+    background-color: darksalmon;
+    padding: 50px;
+}
+
+
+
+.esquema{
+    display: flex;
+    gap: 20%;
+    justify-content: space-around;
+}
+
+.img-selo_presencial{
+    max-width: 200px;
+    margin-top: 40px;
+}
