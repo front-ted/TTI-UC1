@@ -361,11 +361,27 @@
                             </div>
 
 
-                            <div style="position:relative;padding-top:max(60%,324px);width:100%;height:0;"><iframe style="position:absolute;border:none;width:100%;height:100%;left:0;top:0;" src="https://online.fliphtml5.com/cyuav/inha/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe></div>
 
 
 
                         </div>
+                    </div>
+               
+                    <!-- Contêiner principal do flipbook -->
+                    <div id="flipbook">
+                        <div class="page"><img src="flipbook/capa.png" alt="Capa"></div>
+                        <div class="page"><img src="flipbook/2.png" alt="Página 2"></div>
+                        <div class="page"><img src="flipbook/3.png" alt="Página 3"></div>
+                        <div class="page"><img src="flipbook/4.png" alt="Página 4"></div>
+                        <div class="page"><img src="flipbook/5.png" alt="Página 5"></div>
+                        <div class="page"><img src="flipbook/6.png" alt="Página 6"></div>
+                        <div class="page"><img src="flipbook/7.png" alt="Página 7"></div>
+                        <div class="page"><img src="flipbook/8.png" alt="Página 8"></div>
+                        <div class="page"><img src="flipbook/9.png" alt="Página 8"></div>
+                        <div class="page"><img src="flipbook/10.png" alt="Página 10"></div>
+                        <div class="page"><img src="flipbook/12.png" alt="Página 11"></div>
+                        <div class="page"><img src="flipbook/contracapa.png" alt="Contracapa"></div>
+                        <!-- Adicione mais páginas conforme necessário -->
                     </div>
 
                     <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a> 
@@ -437,5 +453,45 @@
         document.body.appendChild(scriptElem);
         
         </script>
+
+        <script type="text/javascript">
+            $("#flipbook").turn({
+                width: 400,
+                height: 300,
+                autoCenter: true
+            });
+        </script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const pages = document.querySelectorAll('.page');
+                let currentPage = 0;
+
+                function showPage(index) {
+                    pages.forEach((page, i) => {
+                    if (i === index) {
+                        page.style.transform = 'rotateY(0deg)';
+                        page.style.zIndex = i + 1; // Mantém a ordem das páginas
+                    } else if (i < index) {
+                        page.style.transform = 'rotateY(-180deg)';
+                    } else {
+                        page.style.transform = 'rotateY(180deg)';
+                    }
+                    });
+                }
+
+                // Adiciona um evento de clique para virar a página
+                document.addEventListener('click', function () {
+                    currentPage = (currentPage + 1) % pages.length;
+                    showPage(currentPage);
+                });
+
+                // Exibe a primeira página
+                showPage(currentPage);
+            });
+        </script>
+
+
+
     </body>
 </html>

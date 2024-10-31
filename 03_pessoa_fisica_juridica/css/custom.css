@@ -7,3 +7,29 @@
     padding:50px 50px;
     background-color: burlywood;
 }
+
+/* Estilos do contêiner do flipbook */
+#flipbook {
+    margin: auto;
+    position: relative;
+    width: 25%; /* Ajuste conforme necessário */
+    height: 35%;
+    perspective: 2000px; /* Para efeito 3D de virada */
+    border: 1px solid red;
+  }
+  
+  /* Estilos das páginas do flipbook */
+  .page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform-origin: left;
+    transition: transform 1s ease;
+    transform-style: preserve-3d;
+  }
+  
+  .page img {
+    width: 100%;
+    height: auto;
+  }
