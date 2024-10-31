@@ -6,7 +6,7 @@
         <!-- Meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        
         <!-- Bootstrap CSS v5.0.2 -->
         <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/fa/css/all.min.css">
@@ -366,10 +366,11 @@
 
                         </div>
                     </div>
-               
-                    <!-- Contêiner principal do flipbook -->
+               <!--  
+                    
+                
                     <div id="flipbook">
-                        <div class="page"><img src="flipbook/capa.png" alt="Capa"></div>
+                        <div class="page"><img src="" alt="Capa"></div>
                         <div class="page"><img src="flipbook/2.png" alt="Página 2"></div>
                         <div class="page"><img src="flipbook/3.png" alt="Página 3"></div>
                         <div class="page"><img src="flipbook/4.png" alt="Página 4"></div>
@@ -381,11 +382,13 @@
                         <div class="page"><img src="flipbook/10.png" alt="Página 10"></div>
                         <div class="page"><img src="flipbook/12.png" alt="Página 11"></div>
                         <div class="page"><img src="flipbook/contracapa.png" alt="Contracapa"></div>
-                        <!-- Adicione mais páginas conforme necessário -->
-                    </div>
+                        
+                    </div> -->
+                    <iframe width="100%" height="800px" src="flipbook/flipbook/index.html" frameborder="0"></iframe>
+
 
                     <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a> 
-                </div>
+    </div>
                 
 
                     
@@ -411,6 +414,11 @@
         <script src="../print/print/template.config.js"></script>
         <!--Scripts gerais-->
         <script src="../assets/js/geral.js"></script>
+
+
+
+        <script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
+        <script type="text/javascript" src="lib/hash.js"></script>
 
         <script>
             var splide = new Splide( '.splide', {
@@ -454,15 +462,9 @@
         
         </script>
 
-        <script type="text/javascript">
-            $("#flipbook").turn({
-                width: 400,
-                height: 300,
-                autoCenter: true
-            });
-        </script>
+    
 
-        <script>
+        <!-- <script>
             document.addEventListener('DOMContentLoaded', function () {
                 const pages = document.querySelectorAll('.page');
                 let currentPage = 0;
@@ -489,7 +491,7 @@
                 // Exibe a primeira página
                 showPage(currentPage);
             });
-        </script>
+        </script> -->
 
 
 
