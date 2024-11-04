@@ -1,12 +1,64 @@
-.bloco1, .bloco3{
-    background-color: aqua;
+.bloco1{
+    background:  
+                url('../img/bloco1.png') 0% 50% no-repeat fixed,
+                url('../img/elemento_bg_bloco.png') no-repeat 100% 5%,
+                url('../img/bg_blocos1_3.png') fixed;
     padding: 50px 0px;
 }
 
+.flip-card{
+  width: 360px;
+  height: 357px;
+}
+
+.flip-card-inner{
+  background-color: transparent;
+}
+
+.card1-front{
+  background: url('../img/card_frente_autonomo.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.card2-front{
+  background: url('../img/card_frente_liberal.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.flip-card-back{
+  background: url('../img/card_atrás.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.destaque1{
+  margin-top: -50px;
+}
+
+
 .bloco2{
     padding:50px 50px;
-    background-color: burlywood;
+    background: url('../img/bloco2.png') 100% 50% no-repeat fixed,
+                url('../img/elemento_bg_bloco2.png') no-repeat 0% 5%,
+                url('../img/bg_bloco2.png') fixed;
+    ;}
+
+.bloco3{
+  background:  
+              url('../img/bloco3.png') 0% 50% no-repeat fixed,
+              url('../img/elemento_bg_bloco.png') no-repeat 100% 5%,
+              url('../img/bg_blocos1_3.png') fixed;
+  padding: 50px 0px;
 }
+
+
 
 /* Estilos do contêiner do flipbook */
 #flipbook {

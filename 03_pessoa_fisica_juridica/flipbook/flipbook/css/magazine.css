@@ -1,6 +1,6 @@
 body{
 	overflow:hidden;
-	background-color:#f5f5f5;
+	background-color:transparent;
 	margin:0;
 	padding:0;
 }
@@ -143,16 +143,24 @@ body{
 	box-shadow:0 0 20px #333;
 }
 
-.magazine-viewport .next-button,
-.magazine-viewport .previous-button{
-	width:22px;
-	height:501px;
+.magazine-viewport .next-button{
+	width:47px;
+	height:46px;
 	position:absolute;
-	top:0;
-}
+	top: 45%;
+	right:-60px;
+} 
+
+.magazine-viewport .previous-button{
+	width:47px;
+	height:46px;
+	position:absolute;
+	top: 45%;
+	left: -60px;
+} 
 
 .magazine-viewport .next-button{
-	right:-22px;
+	
 	-webkit-border-radius:0 15px 15px 0;
 	-moz-border-radius:0 15px 15px 0;
 	-ms-border-radius:0 15px 15px 0;
@@ -161,7 +169,6 @@ body{
 }
 
 .magazine-viewport .previous-button{
-	left:-22px;
 	-webkit-border-radius:15px 0 0 15px;
 	-moz-border-radius:15px 0 0 15px;
 	-ms-border-radius:15px 0 0 15px;
@@ -176,8 +183,10 @@ body{
 
 .magazine-viewport .previous-button-hover,
 .magazine-viewport .previous-button-down{
-	background-image:url(../pics/arrows.png);
-	background-position:-4px 284px;
+	/* background-image:url(../pics/arrows.png); */
+	transition:  0.8s ease;
+	transform: scale(1.4);
+	/* background-position:-10px 284px; */
 	background-repeat:no-repeat;
 }
 
@@ -186,10 +195,21 @@ body{
 	background-color:rgba(0,0,0, 0.4);
 }
 
+.magazine-viewport .next-button{
+	background:url(../../../img/bt_dir.png) no-repeat center center;
+
+}
+
+.magazine-viewport .previous-button{
+	background:url(../../../img/bt_esq.png) no-repeat center center;
+
+}
+
 .magazine-viewport .next-button-hover,
 .magazine-viewport .next-button-down{
-	background-image:url(../pics/arrows.png);
-	background-position:-38px 284px;
+	transition:  0.8s ease;
+	transform: scale(1.4);
+	/* background-position:-10px 284px; */
 	background-repeat:no-repeat;
 }
 
