@@ -1,14 +1,23 @@
-.bloco1, .bloco3, .bloco5{
-    background-color: aqua;
+.bloco1, .bloco5{
+    background: url('../img/bg1_bloco.png') no-repeat fixed;
     padding: 50px;
 }
 
-.bloco2, .bloco4, .bloco6{
-    background-color: darksalmon;
-    padding: 50px;
+.bloco2, .bloco6{
+    background: url('../img/bg2_bloco.png') no-repeat fixed;
 }
 
+.bloco3{
+    background: url('../img/bg3_bloco.png') no-repeat fixed;
+}
 
+.bloco4{
+    background: url('../img/bg4_bloco.png') no-repeat fixed;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6{
+    padding-bottom: 200px;
+}
 
 .esquema{
     display: flex;
@@ -20,3 +29,178 @@
     max-width: 200px;
     margin-top: 40px;
 }
+
+.divisao{
+    background-color: transparent;
+    background: url('../img/div_bloco.png');
+    margin-top: -150px;
+    height: 150px;
+}
+
+/* painel fatores producao */
+
+.painel-fatores-producao{
+    padding-bottom: 160px;
+}
+
+.btn-fatores-producao{
+    position: relative;
+    background-color: transparent;
+    border: transparent;
+}
+
+.posicao-btn{
+    position: absolute;
+    bottom: -36%;
+    left: 25%;    
+}
+
+.posicao-btn-grande{
+    position: absolute;
+    bottom: -50%;
+    left: 5%;    
+}
+
+.btn-terra__fatores-producao{
+    height: 213px;
+    width: 213px;
+    background: url('../img/bt_terra.png') no-repeat;
+}
+
+.btn-trabalho__fatores-producao{
+    height: 214px;
+    width: 214px;
+    background: url('../img/bt_trabalho.png') no-repeat;
+}
+
+.btn-capital__fatores-producao{
+    height: 214px;
+    width: 214px;
+    background: url('../img/bt_capital.png') no-repeat;
+}
+
+.btn-capital__fatores-producao{
+    height: 214px;
+    width: 214px;
+    background: url('../img/bt_capital.png') no-repeat;
+}
+
+.btn-cap-tec__fatores-producao{
+    height: 214px;
+    width: 214px;
+    background: url('../img/bt_cap_tec.png') no-repeat;
+}
+
+.btn-cap-emp__fatores-producao{
+    height: 212px;
+    width: 212px;
+    background: url('../img/bt_cap_emp.png') no-repeat;
+}
+
+.painel-fatores-linha1{
+    display: flex;
+    margin-bottom: 110px;
+    border: 1px solid red;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.painel-fatores-linha2{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+}
+
+.btn-terra__fatores-producao:hover{
+    background: url('../img/bt_terra_hv.png') no-repeat;
+    transition: 0.5s ease;
+}
+
+.btn-trabalho__fatores-producao:hover{
+    background: url('../img/bt_trabalho_hv.png') no-repeat;
+    transition: 0.5s ease;
+
+}
+
+.btn-capital__fatores-producao:hover{
+    background: url('../img/bt_capital_hv.png') no-repeat;
+    transition: 0.5s ease;
+}
+
+.btn-cap-tec__fatores-producao:hover{
+    background: url('../img/bt_cap_tec_hv.png') no-repeat;
+    transition: 0.5s ease;
+}
+
+.btn-cap-emp__fatores-producao:hover{
+    background: url('../img/bt_cap_emp_hv.png') no-repeat;
+    transition: 0.5s ease;
+}
+
+.historia{
+    background: url('../img/ativo-64.png') 13% 0% no-repeat;
+    background-position: fixed;
+    background-size: auto;
+    background-size: 13%;
+}
+
+/* painel-PMCMV */
+
+.painel-PMCMV{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+
+
+.btn-painel-PMCMV{
+    position: relative;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-lancamento__painel-PMCMV{
+ background: url('../img/bt_lancamento.png') no-repeat;
+ height: 210px;
+ width: 189px;
+}
+
+.btn-atendimento__painel-PMCMV{
+    background: url('../img/bt_atendimento.png') no-repeat;
+    height: 210px;
+    width: 189px;
+}
+
+.btn-legislacao__painel-PMCMV{
+    background: url('../img/bt_legislacoes.png') no-repeat;
+    height: 210px;
+    width: 189px;
+}
+
+.btn-estruturacao__painel-PMCMV{
+    background: url('../img/bt_estruturacao.png') no-repeat;
+    height: 210px;
+    width: 189px;
+}
+
+.btn-lancamento__painel-PMCMV:hover{
+    background: url('../img/bt_lancamento_hv.png') no-repeat;
+    transition: 0.5s ease;
+   }
+   
+   .btn-atendimento__painel-PMCMV:hover{
+       background: url('../img/bt_atendimento_hv.png') no-repeat;
+       transition: 0.5s ease;
+   }
+   
+   .btn-legislacao__painel-PMCMV:hover{
+       background: url('../img/bt_legislacoes_hv.png') no-repeat;
+       transition: 0.5s ease;
+   }
+   
+   .btn-estruturacao__painel-PMCMV:hover{
+       background: url('../img/bt_estruturacao_hv.png') no-repeat;
+       transition: 0.5s ease;
+       }
+   
+

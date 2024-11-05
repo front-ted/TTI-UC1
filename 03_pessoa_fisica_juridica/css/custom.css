@@ -84,3 +84,70 @@
     width: 100%;
     height: auto;
   }
+
+
+  @media only screen and (max-width:1700px) {
+
+    .bloco1{
+      background:  
+                  none,
+                  none,
+                  url('../img/bg_blocos1_3.png') fixed;
+      padding: 50px 0px;
+  }
+
+  .bloco2{
+    padding:50px 50px;
+    background: none,
+                none,
+                url('../img/bg_bloco2.png') fixed;
+    ;}
+
+.bloco3{
+  background:  
+              none,
+              none,
+              url('../img/bg_blocos1_3.png') fixed;
+  padding: 50px 0px;
+}
+
+
+  
+    
+  }
+
+  @media only screen and (max-width:470px) {
+
+    .flip-card{
+      width: 300px;
+      height: 300px;
+      border: 1px solid red;
+    }
+
+    .card1-front{
+      background-size: 100%;
+    }
+
+    .card2-front{
+      background-size: 100%;
+    }
+
+    .flip-card-back{
+      background-size: 100%;
+    }
+
+    .flip-card-back p {
+      margin-top: 30px;
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+  
