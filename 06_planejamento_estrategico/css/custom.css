@@ -1,0 +1,9 @@
+.splide .card .card-body {
+    position: absolute;
+    bottom: 70px;
+    background: #fff;
+    width: calc(100% - 20px);
+    border: none;
+    left: 10px;
+    border-radius: 0 0 40px 40px;
+}
