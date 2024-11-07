@@ -1,5 +1,7 @@
 body{
-    background: url('../img/bg.png') no-repeat fixed;
+    background: url('../img/bg.png') no-repeat fixed,
+                url('../img/elemento_bg.png') no-repeat 5% 20%
+    ;
 }
 
 
