@@ -1,0 +1,174 @@
+body{
+    background: url('../img/bg.png') no-repeat fixed;
+}
+
+
+/* painel */
+.painel{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    justify-content: space-between;
+    background: url('../img/fundo_swot.png') no-repeat;
+    background-size: cover;
+    padding: 40px 25px 37px 50px;
+    gap: 20px;
+}
+
+.bt-painel{
+    height: 196px;
+    width: 196px;
+    border: transparent;
+    background-color: transparent;
+    color: transparent;
+}
+
+.bt-forcas__painel {
+    background: url('../img/bt_forças.png');
+}
+
+.bt-fraquezas__painel{
+    background: url('../img/bt_fraquezas.png');
+}
+
+.bt-ameacass__painel{
+    background: url('../img/bt_ameacas.png');
+}
+
+.bt-oportunidades__painel{
+    background: url('../img/bt_oportunidades.png');
+}
+
+.bt-painel:hover{
+    transition: 0.4s ease;
+}
+
+
+
+.bt-forcas__painel:hover {
+    background: url('../img/bt_forças_hv.png');
+}
+
+.bt-fraquezas__painel:hover{
+    background: url('../img/bt_fraquezas_hv.png');
+}
+
+.bt-ameacass__painel:hover{
+    background: url('../img/bt_ameacas_hv.png');
+}
+
+.bt-oportunidades__painel:hover{
+    background: url('../img/bt_oportunidades_hv.png');
+}
+
+.destaquesSWTO{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: auto;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+.destaqueSWTO{
+    height: 196px;
+    width: 351px;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.destaqueSWTO li{
+    background: url('../img/marcador.png') no-repeat left top 5px / 20px;
+    list-style: none;
+    padding-left: 30px;
+    
+}
+
+.destaqueForcas{
+    background: url('../img/bg_forcas.png');
+    background-size: cover;
+}
+
+
+
+.destaqueOportunidades{
+    background: url('../img/bg_oportunidades.png');
+    background-size: cover;
+}
+
+.destaqueFraquezas{
+    background: url('../img/bg_fraquezas.png');
+    background-size: cover;
+}
+
+.destaqueAmeacas{
+    background: url('../img/bg_ameacas.png');
+    background-size: cover;
+}
+
+.usos{
+    position: relative;
+    padding: 100px 0px;
+    height: 1000px;
+}
+
+.usos img{
+    position: absolute;
+}
+
+.postit1{
+    top: 15%;
+    left: 40%;
+}
+
+.postit3{
+    left: 5%;
+}
+
+.postit2{
+    left: 70%;
+}
+
+.postit4{
+    top:50%;
+    left: 40%;
+}
+
+
+.postit4a{
+    top:50%;
+    left: 7%;
+}
+
+
+.postit4b{
+    top:70%;
+    left: 40%;
+}
+
+
+
+.postit4c{
+    top:50%;
+    left: 75%;
+}
+
+.flechaa{
+    top:54%;
+    left: 29%;
+}
+
+.flechab{
+    top:63%;
+    left: 53%;
+}
+
+.flechac{
+    top:54%;
+    left: 67%;
+}
