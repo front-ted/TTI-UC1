@@ -641,11 +641,7 @@ tbody td:first-child{border-left: 0;}
     list-style: none;
     padding-left: 30px;
 }
-.marcador-check li{
-    background: url('../images/marcador_check.svg') no-repeat left top 5px / 20px;
-    list-style: none;
-    padding-left: 30px;
-}
+
 .marcador-numeral li, .marcador-letras li{
     list-style: none;
     padding-left: 30px;
@@ -758,6 +754,12 @@ tbody td:first-child{border-left: 0;}
 }
 .marcador-letras li:nth-child(26){
     background-image: url('../images/marcador_z.svg');
+}
+
+.marcador-check li{
+    background: url('../images/marcador_check.svg') no-repeat left top 5px / 20px;
+    list-style: none;
+    padding-left: 30px;
 }
 /*FIM MARCADORES*/
 
