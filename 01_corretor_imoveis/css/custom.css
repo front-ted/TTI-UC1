@@ -69,3 +69,22 @@ body{
 
   
 }
+
+@media only screen and (max-width:600px) {
+
+  .destaque01{
+    
+    width: 100%;
+  }
+
+  .paragrafodestaque01{
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .paragrafodestaque01 p{
+    width: 100%;
+  }
+
+  
+}
