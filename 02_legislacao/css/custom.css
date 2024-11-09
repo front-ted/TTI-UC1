@@ -31,7 +31,6 @@ body{
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
-
 }
 
 .btn__painel-COFECI{
@@ -135,3 +134,16 @@ body{
     color: #004787;
 }
 
+@media screen and (max-width: 800px) {
+
+    .painel-COFECI{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .grafismo-exagono::after{
+        right: -10px;
+    }
+}
