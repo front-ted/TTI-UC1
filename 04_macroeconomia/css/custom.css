@@ -25,15 +25,22 @@
     justify-content: space-around;
 }
 
+.selo{
+    display: flex;
+    justify-content: center;
+}
+
 .img-selo_presencial{
-    max-width: 200px;
-    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    margin: 40px 0px 40px 0px;
 }
 
 .divisao{
     background-color: transparent;
-    background: url('../img/div_bloco.png');
+    background: url('../img/div_bloco.png') no-repeat;
     margin-top: -150px;
+    background-size: 100%;
     height: 150px;
 }
 
@@ -100,14 +107,12 @@
 .painel-fatores-linha1{
     display: flex;
     margin-bottom: 110px;
-    border: 1px solid red;
     justify-content: space-around;
     padding-top: 50px;
 }
 
 .painel-fatores-linha2{
     display: flex;
-    border: 1px solid red;
     justify-content: space-around;
 }
 
@@ -201,6 +206,45 @@
    .btn-estruturacao__painel-PMCMV:hover{
        background: url('../img/bt_estruturacao_hv.png') no-repeat;
        transition: 0.5s ease;
-       }
-   
+}
 
+@media only screen and (max-width:900px) {
+
+    .painel-PMCMV{
+        flex-direction: column;
+        gap: 150px;
+        align-items: center;
+        /* display: flex;
+        margin-bottom: 110px;
+        justify-content: space-around;
+        padding-top: 50px; */
+    }
+  }
+
+
+
+@media only screen and (max-width:1000px) {
+
+    .painel-fatores-linha1, .painel-fatores-linha2{
+        flex-direction: column;
+        gap: 150px;
+        align-items: center;
+        /* display: flex;
+        margin-bottom: 110px;
+        justify-content: space-around;
+        padding-top: 50px; */
+    }
+  }
+
+  @media only screen and (max-width:1700px) {
+
+    .historia{
+        background:none;
+    }    
+  }
+
+
+
+
+
+  
