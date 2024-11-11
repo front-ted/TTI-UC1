@@ -271,6 +271,81 @@ body{
     left: 72%;
 }
 
+
+@media only screen and (max-width:850px) {
+
+    .painel-ferramentas{
+        height: auto;
+        width: 100%;
+        background: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+    
+    .btn-painel-ferramentas{
+        
+        position: relative;
+    }
+
+    
+.btn-pdca{
+    
+    top: auto;
+    left: auto;
+}
+
+
+
+.btn-fluxograma{
+    
+    top: auto;
+    left: auto;
+}
+
+
+
+.btn-graficos{
+    
+    top: auto;
+    left: auto;
+}
+
+.btn-causa{
+    
+    top: auto;
+    left: auto;
+}
+
+
+.btn-gut{
+    
+    top: auto;
+    left: auto;
+}
+
+
+
+.btn-5w2h{
+    
+    top: auto;
+    left: auto;
+}
+
+
+
+.btn-seis{
+    
+    top: auto;
+    left: auto;
+}
+
+
+   
+      
+   }
+
 @media only screen and (max-width:950px) {
 
    .linha1, .linha2{
