@@ -60,15 +60,15 @@ body{
 
 
 .organizacional{
-    background: url('../img/destaque_nivel.png');
+    background: url('../img/destaque_nivel.png') no-repeat;
 }
 
 .conteudo{
-    background: url('../img/destaque_conteudo.png');
+    background: url('../img/destaque_conteudo.png') no-repeat;
 }
 
 .tempo{
-    background: url('../img/destaque_tempo.png');
+    background: url('../img/destaque_tempo.png') no-repeat;
 }
 
 .destaque-infografico.tempo{
@@ -78,12 +78,12 @@ body{
 }
 
 .resultados{
-    background: url('../img/destaque_resultados.png');
+    background: url('../img/destaque_resultados.png') no-repeat;
 
 }
 
 .processo{
-    background: url('../img/destaque_responsabilidade.png');
+    background: url('../img/destaque_responsabilidade.png') no-repeat;
     padding-left: 85px;
 }
 
@@ -214,61 +214,72 @@ body{
 
 .fluxograma button{
    position: absolute;
+   color: #fff;
+   background-color: transparent;
+   border: none;
 }
 
 .atividade{
-    top: 13%;
-    left: 0%;
+    top: 7%;
+    left: 5%;
 }
 
 .decisao{
-    top: 67%;
-    left: 2%;
+    top: 57%;
+    left: 6%;
 }
 
 .dados{
-    top:97%;
-    left:2%;
+    top:86%;
+    left:8%;
 }
 
 .processo-pre-definido{
-    top: 62%;
-    left: 64%;
+    top: 54%;
+    left: 72%;
+    font-weight: 100;
 }
 
 .armazenamento{
-    top: 14%;
-    left: 26%;
+    top: 5%;
+    left: 37%;
+    font-size: smaller;
 }
 
 .documento{
-    top: 34%;
-    left: 37%;
+    top: 31%;
+    left: 40%;
 }
 
 .documentos{
-    top: 67%;
-    left: 26%;
+    top: 55%;
+    left: 35%;
 }
 
 .atraso{
-    top: 40%;
-    left: 1%;
+    top: 31%;
+    left: 6%;
 }
 
 .entradaManual{
-    top: 10%;
-    left: 69%;
+    top: 2%;
+    left: 75%;
+    font-size: smaller  ;
 }
 
 .operacaoManual{
-    top: 41%;
+    top: 29%;
     left: 71%;
 }
 
 .conector{
-    top: 97%;
+    top: 82%;
     left: 72%;
+}
+
+.inicioFim{
+    top: 82%;
+    left: 43%;
 }
 
 
