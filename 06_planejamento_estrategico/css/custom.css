@@ -1,3 +1,9 @@
+@font-face {
+    font-family:'Mynerve-Regular';
+    src:url("../font/Mynerve-Regular.ttf");
+}
+
+
 .splide .card .card-body {
     position: absolute;
     bottom: 70px;
@@ -6,4 +12,25 @@
     border: none;
     left: 10px;
     border-radius: 0 0 40px 40px;
+}
+
+
+.postits{
+    font-family: Mynerve-Regular;
+    height: 238px;
+    width: 227px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 20px;
+    font-weight: bolder;
+}
+
+.postits p{
+    font-family: Mynerve-Regular;
+}
+
+.postit1{
+    background: url('../img/postit.png') no-repeat;
+   
 }
