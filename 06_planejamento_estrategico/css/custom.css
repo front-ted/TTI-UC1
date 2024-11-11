@@ -203,6 +203,23 @@ body{
 }
 
 
+.fluxograma{
+    height: 462px;
+    width: 490px;
+    background: url('../img/fluxograma.png');
+    position: relative;
+    margin: auto;
+}
+
+.fluxograma button{
+   position: absolute;
+}
+
+.atividade{
+    top: 13%;
+    left: 0%;
+}
+
 @media only screen and (max-width:950px) {
 
    .linha1, .linha2{
