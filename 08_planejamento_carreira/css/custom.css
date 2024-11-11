@@ -109,3 +109,97 @@ body{
   transform: scale(1.2);
   transition: 0.4s ease;
 }
+
+
+@media only screen and (max-width:1700px) {
+ 
+  body{
+    background: none,
+        none,
+        url('../img/bg.png') no-repeat fixed !important;
+        background-size: unset, unset, cover !important;
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+
+  .painel2{
+    background: none;
+    padding: 150px 0px;
+  }
+  
+  .btn-imobiliario{
+    top: 12%;
+    left: 11%;
+  }
+  
+  .btn-documental{
+    
+    top: -5%;
+    left: 23%;
+  }
+  
+  .btn-avaliador{
+   
+    top: -5%;
+    left: 50%;
+  }
+  
+  .btn-avaliador-processos{
+    
+    top: 12%;
+    left: 64%;
+  }
+ 
+  
+
+}
+
+@media only screen and (max-width:700px) {
+
+  .painel2{
+
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center  ;
+    padding-top: 50px;
+    gap: 50px;
+    height: auto;
+  }
+  
+  .btn-painel2{
+    position: relative;
+    
+  }
+  
+  .btn-imobiliario{
+   
+    top: unset;
+    left: unset;
+  }
+  
+  .btn-documental{
+    
+    top: unset;
+    left: unset;
+  }
+  
+  .btn-avaliador{
+   
+    top: unset;
+    left: unset;
+  }
+  
+  .btn-avaliador-processos{
+    
+    top: unset;
+    left: unset;
+  }
+ 
+  
+
+}
+
