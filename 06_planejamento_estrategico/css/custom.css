@@ -99,6 +99,108 @@ body{
     margin-bottom: 50px;
 }
 
+/* painel ferramentas */
+
+.painel-ferramentas{
+    height: 596px;
+    width: 747px;
+    background: url('../img/quadro_painel.png');
+    position: relative;
+}
+
+.btn-painel-ferramentas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+
+
+.btn-pdca{
+    height: 299px;
+    width: 108px;
+    background: url('../img/bt_pdca.png');   
+    top: 36%;
+    left: 76%;
+}
+
+.btn-pdca button{
+    margin-bottom: -35px;
+}
+
+.btn-fluxograma{
+    width: 223px;
+    height: 267px;
+    background: url('../img/bt_fluxo.png');
+    top: 9%;
+    left: 8%;
+}
+
+.btn-fluxograma button{
+    margin-bottom: -25px;
+}
+
+.btn-graficos{
+    height: 123px;
+    width: 220px;
+    background: url('../img/bt_graficos.png');
+    top: 65%;
+    left: 41%;
+}
+
+.btn-graficos button{
+    margin-bottom: -35px;
+}
+
+.btn-causa{
+    height: 203px;
+    width: 246px;
+    background: url('../img/bt_diagrama.png');
+    top: 7%;
+    left: 39%;
+}
+
+.btn-causa button{
+    margin-bottom: -25px;
+    z-index: 2;
+}
+
+.btn-gut{
+    height: 150px;
+    width: 216px;
+    background: url('../img/bt_gut.png');
+    top: 38%;
+    left: 41%;
+}
+
+.btn-gut button{
+    margin-bottom: -15px;
+}
+
+.btn-5w2h{
+    height: 155px;
+    width: 192px;
+    background: url('../img/bt_5w2h.png');
+    top: 60%;
+    left: 11%;
+}
+
+.btn-5w2h button{
+    margin-bottom: -20px;
+}
+
+.btn-seis{
+    height: 123px;
+    width: 141px;
+    background: url('../img/bt_6sigma.png');
+    top: 9%;
+    left: 73%;
+}
+
+.btn-seis button{
+    margin-bottom: -40px;
+}
 
 
 @media only screen and (max-width:950px) {
