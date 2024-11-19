@@ -39,6 +39,16 @@
   margin-left: 40px;
   margin-right: 40px;	
 }
+
+.pagina .citacao{
+ padding-left: 20%;
+}
+
+.pagina .transcricao{
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
 .pagina caption	{
   display: table-caption;
   text-align: center;
