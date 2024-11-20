@@ -90,3 +90,11 @@ body{
 
   
 }
+
+@media only screen and (max-width:768px) {
+
+  .historico{
+    flex-direction: column-reverse;
+  }
+  
+}
