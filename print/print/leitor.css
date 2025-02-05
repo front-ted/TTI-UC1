@@ -4,6 +4,17 @@
   font-family: 'Libre Franklin Regular';
 }
 
+.pt-5{
+  padding-top: unset !important;
+}
+.mb-5{
+  margin-bottom: unset !important;
+}
+
+.destaque1{
+  min-height: unset !important;
+}
+
 /* SUPER RESET */
 .pagina *{
   all: unset;
@@ -11,7 +22,9 @@
 .pagina *:before{
   all: unset;
 }
-
+.destaque.gradiente {
+  background: transparent;
+}
 /* VALORES DEFAULT DE TUDO*/
 .pagina a:link	{
   color: (internal value);
@@ -39,6 +52,7 @@
   margin-left: 40px;
   margin-right: 40px;	
 }
+
 
 .pagina .citacao{
  padding-left: 20%;
