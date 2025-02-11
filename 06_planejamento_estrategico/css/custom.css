@@ -1,15 +1,15 @@
 @font-face {
-    font-family:'Mynerve-Regular';
-    src:url("../font/Mynerve-Regular.ttf");
+    font-family: 'Mynerve-Regular';
+    src: url("../font/Mynerve-Regular.ttf");
 }
 
-body{
-    background: 
-        url('../img/elementos_flutuantes.png') right 3% no-repeat,
+body {
+    background:
+        url('../img/elementos_flutuantes.png') right 3% no-repeat fixed,
         url('../img/bg.png') no-repeat fixed !important;
-        background-size: auto, cover !important;
-  }
-  
+    background-size: auto, cover !important;
+}
+
 
 .splide .card .card-body {
     position: absolute;
@@ -21,14 +21,23 @@ body{
     border-radius: 0 0 40px 40px;
 }
 
-.postits{
+.postits-painel {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+.postits-painel2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0px 100px 0px 100px;
+    gap: 20px;
+}
 
-.postit{
+.postit {
     font-family: Mynerve-Regular;
     height: 238px;
     width: 227px;
@@ -40,11 +49,11 @@ body{
     background: url('../img/postit.png') no-repeat;
 }
 
-.postits p{
+.postits p {
     font-family: Mynerve-Regular;
 }
 
-.destaque-infografico{
+.destaque-infografico {
     height: 290px;
     width: 308px;
     display: flex;
@@ -54,45 +63,45 @@ body{
     padding: 60px 10px 0px 50px;
 }
 
-.destaque-infografico span{
+.destaque-infografico span {
     text-align: center;
+    font-size: 19.5px;
 }
 
-
-.organizacional{
+.organizacional {
     background: url('../img/destaque_nivel.png') no-repeat;
 }
 
-.conteudo{
+.conteudo {
     background: url('../img/destaque_conteudo.png') no-repeat;
 }
 
-.tempo{
+.tempo {
     background: url('../img/destaque_tempo.png') no-repeat;
 }
 
-.destaque-infografico.tempo{
+.destaque-infografico.tempo {
     justify-content: flex-start;
     padding-top: 80px;
     gap: 40px;
 }
 
-.resultados{
+.resultados {
     background: url('../img/destaque_resultados.png') no-repeat;
 
 }
 
-.processo{
+.processo {
     background: url('../img/destaque_responsabilidade.png') no-repeat;
     padding-left: 85px;
 }
 
-.linha1{
+.linha1 {
     display: flex;
     justify-content: space-between;
 }
 
-.linha2{
+.linha2 {
     display: flex;
     justify-content: center;
     margin-top: -10px;
@@ -101,107 +110,154 @@ body{
 
 /* painel ferramentas */
 
-.painel-ferramentas{
-    height: 596px;
-    width: 747px;
-    background: url('../img/quadro_painel.png');
+.painel-ferramentas {
+    height: 468px;
+    width: 643px;
+    background: url('../img/painel.png');
     position: relative;
+    margin: auto;
 }
 
-.btn-painel-ferramentas{
+
+.btn-painel-ferramentas {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     position: absolute;
 }
 
-
-
-.btn-pdca{
-    height: 299px;
-    width: 108px;
-    background: url('../img/bt_pdca.png');   
-    top: 36%;
-    left: 76%;
+.btn-pdca {
+    top: 69%;
+    left: 73%;
 }
 
-.btn-pdca button{
+.btn-pdca button {
     margin-bottom: -35px;
 }
 
-.btn-fluxograma{
-    width: 223px;
-    height: 267px;
-    background: url('../img/bt_fluxo.png');
-    top: 9%;
-    left: 8%;
+.btn-seis {
+    top: 30%;
+    left: 70%;
 }
 
-.btn-fluxograma button{
+.btn-seis button {
+    margin-bottom: -40px;
+}
+
+.btn-fluxograma {
+    top: 36%;
+    left: 7%;
+}
+
+.btn-fluxograma button {
     margin-bottom: -25px;
 }
 
-.btn-graficos{
-    height: 123px;
-    width: 220px;
-    background: url('../img/bt_graficos.png');
-    top: 65%;
-    left: 41%;
+.btn-graficos {
+    top: 79%;
+    left: 53%;
 }
 
-.btn-graficos button{
+.btn-graficos button {
     margin-bottom: -35px;
 }
 
-.btn-causa{
-    height: 203px;
-    width: 246px;
-    background: url('../img/bt_diagrama.png');
-    top: 7%;
-    left: 39%;
+.btn-causa {
+    top: 28%;
+    left: 33%;
 }
 
-.btn-causa button{
+.btn-causa button {
     margin-bottom: -25px;
     z-index: 2;
 }
 
-.btn-gut{
-    height: 150px;
-    width: 216px;
-    background: url('../img/bt_gut.png');
-    top: 38%;
-    left: 41%;
+.btn-gut {
+    top: 72%;
+    left: 28%;
 }
 
-.btn-gut button{
+.btn-gut button {
     margin-bottom: -15px;
 }
 
-.btn-5w2h{
-    height: 155px;
-    width: 192px;
-    background: url('../img/bt_5w2h.png');
-    top: 60%;
-    left: 11%;
+.btn-5w2h {
+    top: 75%;
+    left: 8%;
 }
 
-.btn-5w2h button{
+.btn-5w2h button {
     margin-bottom: -20px;
 }
 
-.btn-seis{
-    height: 123px;
-    width: 141px;
-    background: url('../img/bt_6sigma.png');
-    top: 9%;
-    left: 73%;
+
+.botao::before {
+    border-radius: 20px;
 }
 
-.btn-seis button{
-    margin-bottom: -40px;
+
+.atividade {
+    top: 7%;
+    left: 5%;
 }
 
+.decisao {
+    top: 57%;
+    left: 6%;
+}
+
+.dados {
+    top: 86%;
+    left: 8%;
+}
+
+.processo-pre-definido {
+    top: 54%;
+    left: 72%;
+    font-size: smaller;
+}
+
+.armazenamento {
+    top: 5%;
+    left: 38.7%;
+    font-size: smaller;
+}
+
+.documento {
+    top: 31%;
+    left: 40%;
+}
+
+.documentos {
+    top: 55%;
+    left: 35%;
+}
+
+.atraso {
+    top: 31%;
+    left: 6%;
+}
+
+.entradaManual {
+    top: 2%;
+    left: 75%;
+    font-size: smaller;
+}
+
+.operacaoManual {
+    top: 29%;
+    left: 71%;
+}
+
+.conector {
+    top: 82%;
+    left: 72%;
+}
+
+.inicioFim {
+    top: 82%;
+    left: 43%;
+}
 
 .fluxograma{
     height: 462px;
@@ -219,164 +275,92 @@ body{
    border: none;
 }
 
-.atividade{
-    top: 7%;
-    left: 5%;
-}
 
-.decisao{
-    top: 57%;
-    left: 6%;
-}
 
-.dados{
-    top:86%;
-    left:8%;
-}
 
-.processo-pre-definido{
-    top: 54%;
-    left: 72%;
-    font-weight: 100;
-}
 
-.armazenamento{
-    top: 5%;
-    left: 37%;
-    font-size: smaller;
-}
 
-.documento{
-    top: 31%;
-    left: 40%;
-}
 
-.documentos{
-    top: 55%;
-    left: 35%;
-}
 
-.atraso{
-    top: 31%;
-    left: 6%;
-}
 
-.entradaManual{
-    top: 2%;
-    left: 75%;
-    font-size: smaller  ;
-}
 
-.operacaoManual{
-    top: 29%;
-    left: 71%;
-}
 
-.conector{
-    top: 82%;
-    left: 72%;
-}
 
-.inicioFim{
-    top: 82%;
-    left: 43%;
+
+
+@media screen and (max-width:1600px) {
+
+    body {
+        background:
+            none,
+            url('../img/bg.png') no-repeat fixed !important;
+        background-size: unset, cover !important;
+    }
+
+
+
 }
 
 
-@media only screen and (max-width:850px) {
 
-    .painel-ferramentas{
+
+
+
+@media screen and (max-width:950px) {
+
+    .linha1,
+    .linha2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width:850px) {}
+
+
+
+@media screen and (max-width:750px) {
+
+    .postits-painel2 {
+        padding: unset;
+    }
+
+    .painel-ferramentas {
         height: auto;
         width: 100%;
         background: none;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 100px;
+        gap: 56px;
     }
-    
-    .btn-painel-ferramentas{
-        
+
+    .btn-painel-ferramentas {
         position: relative;
     }
 
-    
-.btn-pdca{
-    
-    top: auto;
-    left: auto;
+    .btn-pdca,
+    .btn-fluxograma,
+    .btn-graficos,
+    .btn-causa,
+    .btn-gut,
+    .btn-5w2h,
+    .btn-seis {
+        top: unset;
+        left: unset;
+    }
+
+    .btn-painel-ferramentas {
+        display: unset;
+        flex-direction: unset;
+        justify-content: unset;
+        position: unset;
+    }
+
 }
-
-
-
-.btn-fluxograma{
-    
-    top: auto;
-    left: auto;
-}
-
-
-
-.btn-graficos{
-    
-    top: auto;
-    left: auto;
-}
-
-.btn-causa{
-    
-    top: auto;
-    left: auto;
-}
-
-
-.btn-gut{
-    
-    top: auto;
-    left: auto;
-}
-
-
-
-.btn-5w2h{
-    
-    top: auto;
-    left: auto;
-}
-
-
-
-.btn-seis{
-    
-    top: auto;
-    left: auto;
-}
-
-
-   
-      
-   }
-
-@media only screen and (max-width:950px) {
-
-   .linha1, .linha2{
-    flex-direction: column;
-    align-items: center;
-   }
-    
-     
-  }
-
-
-@media only screen and (max-width:1600px) {
-
-    body{
-        background: 
-           none,
-            url('../img/bg.png') no-repeat fixed !important;
-            background-size: unset, cover !important;
-      }
-
-    
-     
-  }
