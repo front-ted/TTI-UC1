@@ -33,6 +33,8 @@
     margin-left: 2cm;
   }
 
+
+
   .pt-5 {
     padding-top: unset !important;
   }
@@ -41,7 +43,7 @@
     margin-bottom: unset !important;
   }
 
-  .destaque1{
+  .destaque1 {
     min-height: unset !important;
   }
 
@@ -161,10 +163,9 @@
 
   p {
     font-size: 12pt;
-    color: black
+    color: black;
   }
 
-  ;
 
   .icone::before {
     display: none !important;
@@ -332,6 +333,14 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     background-color: white !important;
+  }
+
+  .margem-esq {
+    padding-left: 3%;
+  }
+
+  .splide__slide img {
+    margin: auto;
   }
 
   /* SUMIR COM TUDO QUE NÃO ESTEJA NA DIV booklet */

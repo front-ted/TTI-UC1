@@ -281,7 +281,19 @@
   padding-left: 40px;
 }
 
+.pagina .marcador-numeral{
+  display: block;
+  list-style-type:decimal !important;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
 
+.margem-esq{
+  padding-left: 3%;
+}
 
 .pagina p {
   display: block;
@@ -651,6 +663,10 @@ iframe,
 .splide__pagination,
 .splide__arrows {
   display: none !important;
+}
+
+.splide__slide img{
+  margin: auto;
 }
 
 .splide__list li {

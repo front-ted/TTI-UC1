@@ -276,7 +276,9 @@ body {
 }
 
 
-
+.accordion-item h2 *{
+    font-family: figtree-bold;
+}
 
 
 
