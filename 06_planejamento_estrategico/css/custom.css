@@ -5,11 +5,10 @@
 
 body {
     background:
-        url('../img/elementos_flutuantes.png') right 3% no-repeat fixed,
+        url('../img/elementos_flutuantes.png') right 35% no-repeat fixed,
         url('../img/bg.png') no-repeat fixed !important;
     background-size: auto, cover !important;
 }
-
 
 .splide .card .card-body {
     position: absolute;
@@ -190,7 +189,6 @@ body {
     margin-bottom: -20px;
 }
 
-
 .botao::before {
     border-radius: 20px;
 }
@@ -259,7 +257,7 @@ body {
     left: 43%;
 }
 
-.fluxograma{
+.fluxograma {
     height: 462px;
     width: 490px;
     background: url('../img/fluxograma.png');
@@ -268,44 +266,136 @@ body {
     overflow: visible;
 }
 
-.fluxograma button{
-   position: absolute;
-   color: #fff;
-   background-color: transparent;
-   border: none;
+.fluxograma button {
+    position: absolute;
+    color: #fff;
+    background-color: transparent;
+    border: none;
 }
 
 
-.accordion-item h2 *{
+.accordion-item h2 * {
     font-family: figtree-bold;
 }
 
 
+.desk-abas {
+    display: block;
+}
+
+.mob-gaitinha {
+    display: none;
+}
 
 
+.splide:not(.is-overflow) .splide__pagination {
+    display: block;
+}
 
+.splide__pagination {
+    bottom: -20px;
+}
 
+.splide__pagination {
+    bottom: .5em;
+    left: 2%;
+    padding: 0 1em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
 
+.bg-escuro .infografico {
+    color: #fff;
+}
 
+.bg-escuro .modal-body p {
+    color: #000;
+}
 
+.bg-escuro .modal-body * {
+    color: unset;
+}
 
+.bg-escuro .modal-body li {
+    color: #000;
+}
 
-@media screen and (max-width:1600px) {
+.bg-escuro .modal-body {
+    color: unset;
+}
+
+.bg-escuro .table {
+    color: #fff;
+}
+
+@media screen and (max-width:1440px) {
 
     body {
         background:
-            none,
+            url('../img/elementos_flutuantes.png') right 50% no-repeat fixed,
             url('../img/bg.png') no-repeat fixed !important;
-        background-size: unset, cover !important;
+        background-size: 18%, cover !important;
     }
 
+    .splide__pagination {
+        bottom: .5em;
+        left: 2%;
+        padding: 0 1em;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+}
 
 
+@media screen and (max-width:1400px) {
+
+    .splide__pagination {
+        bottom: .5em;
+        left: 3%;
+        padding: 0 1em;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+
+    body {
+        background:
+            url('../img/elementos_flutuantes.png') right 33% no-repeat fixed,
+            url('../img/bg.png') no-repeat fixed !important;
+        background-size: 18%, cover !important;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    body {
+        background:
+            url('../img/elementos_flutuantes.png') right 53% no-repeat fixed,
+            url('../img/bg.png') no-repeat fixed !important;
+        background-size: 16%, cover !important;
+    }
 }
 
 
 
+@media screen and (max-width:1024px) {
+    .splide__pagination {
+        bottom: .5em;
+        left: 4%;
+        padding: 0 1em;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
 
+    body {
+        background:
+            url('../img/bg.png') no-repeat fixed,
+            none !important;
+        background-size: cover !important;
+    }
+}
 
 
 @media screen and (max-width:950px) {
@@ -316,16 +406,44 @@ body {
         align-items: center;
     }
 
-
+    .modal-dialog {
+        max-width: 620px;
+        margin: 1.75rem auto;
+    }
 }
 
+@media screen and (max-width:820px) {
+    .desk-abas {
+        display: none;
+    }
 
+    .mob-gaitinha {
+        display: block;
+    }
 
+    .splide .card .card-body {
+        position: absolute;
+        bottom: 52px;
+        background: #fff;
+        width: calc(100% - 20px);
+        border: none;
+        left: 10px;
+        border-radius: 0 0 40px 40px;
+    }
+}
 
+@media screen and (max-width:768px) {
+    .splide .card .card-body {
+        position: absolute;
+        bottom: 48px;
+        background: #fff;
+        width: calc(100% - 20px);
+        border: none;
+        left: 10px;
+        border-radius: 0 0 40px 40px;
+    }
 
-@media screen and (max-width:850px) {}
-
-
+}
 
 @media screen and (max-width:750px) {
 
@@ -363,6 +481,86 @@ body {
         flex-direction: unset;
         justify-content: unset;
         position: unset;
+    }
+
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .fluxograma {
+        height: 339px;
+        width: 360px;
+        background: url('../img/fluxograma-mob.png');
+        position: relative;
+        margin: auto;
+        overflow: visible;
+    }
+
+    .fluxogram .modal-body {
+        border-width: 3px;
+        border-style: solid;
+        padding: 20px 10px;
+    }
+
+    .atividade,
+    .decisao,
+    .dados,
+    .processo-pre-definido,
+    .armazenamento,
+    .documento,
+    .documentos,
+    .atraso,
+    .entradaManual,
+    .operacaoManual,
+    .conector,
+    .inicioFim {
+        font-size: 12px;
+    }
+
+    .splide .card .card-body {
+        position: absolute;
+        bottom: 48px;
+        background: #fff;
+        width: calc(100% - 20px);
+        border: none;
+        left: 10px;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .splide__pagination {
+        bottom: .5em;
+        left: 3%;
+        padding: 0 1em;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .fluxograma {
+        height: 320px;
+        width: 340px;
+        background: url('../img/fluxograma-mob375.png');
+        position: relative;
+        margin: auto;
+        overflow: visible;
+    }
+
+    .splide .card .card-body {
+        position: absolute;
+        bottom: 36px;
+        background: #fff;
+        width: calc(100% - 20px);
+        border: none;
+        left: 10px;
+        border-radius: 0 0 40px 40px;
+        font-size: 14px;
     }
 
 }
