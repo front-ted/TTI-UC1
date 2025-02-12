@@ -189,6 +189,26 @@ body {
     display: none;
 }
 
+.painel-modais .modal-dialog{
+    max-width: 600px !important;
+    min-height: unset;
+}
+
+.bg-escuro .modal-body li {
+    color: #000;
+}
+
+.bg-escuro .modal-body p {
+    color: #000;
+}
+
+.bg-escuro .modal-body * {
+    color: #000;
+}
+
+.bg-escuro .historia{
+    background-color: #fff;
+}
 
 @media screen and (max-width:1700px) {
     /* 

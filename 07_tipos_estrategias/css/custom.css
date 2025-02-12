@@ -1,6 +1,6 @@
 body {
-    background: url('../img/asset01_esq.png') left 33% no-repeat fixed,
-        url('../img/asset02_dir.png') right 70% no-repeat fixed,
+    background: url('../img/asset01_esq.png') left 3% no-repeat ,
+        url('../img/asset02_dir.png') right 7% no-repeat,
         url('../img/bg.png') no-repeat fixed;
     background-size: auto, auto, cover;
 }
@@ -203,7 +203,7 @@ body {
 @media only screen and (max-width:1440px) {
 
     body {
-        background: url(../img/asset01_esq.png) left 33% no-repeat fixed, url(../img/asset02_dir.png) right 70% no-repeat fixed, url(../img/bg.png) no-repeat fixed;
+        background: url(../img/asset01_esq.png) left 3% no-repeat, url(../img/asset02_dir.png) right 7% no-repeat, url(../img/bg.png) no-repeat fixed;
         background-size: 18%, 17%, cover;
     }
 }
@@ -212,7 +212,7 @@ body {
 @media only screen and (max-width:1400px) {
 
     body {
-        background: url(../img/asset01_esq.png) left 33% no-repeat fixed, url(../img/asset02_dir.png) right 70% no-repeat fixed, url(../img/bg.png) no-repeat fixed;
+        background: url(../img/asset01_esq.png) left 3% no-repeat, url(../img/asset02_dir.png) right 7% no-repeat, url(../img/bg.png) no-repeat fixed;
         background-size: 18%, 16%, cover;
     }
 }
@@ -220,7 +220,7 @@ body {
 @media only screen and (max-width:1366px) {
 
     body {
-        background: url(../img/asset01_esq.png) left 33% no-repeat fixed, url(../img/asset02_dir.png) right 70% no-repeat fixed, url(../img/bg.png) no-repeat fixed;
+        background: url(../img/asset01_esq.png) left 3% no-repeat, url(../img/asset02_dir.png) right 7% no-repeat, url(../img/bg.png) no-repeat fixed;
         background-size: 17%, 14%, cover;
     }
 }

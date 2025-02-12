@@ -1,13 +1,13 @@
-body{
+body {
   background: url('../img/asset01_esq.png') left 3% no-repeat,
-      url('../img/asset02_dir.png') right 10% no-repeat,
-      url('../img/bg.png') no-repeat fixed !important;
-      background-size: auto, auto, cover !important;
+    url('../img/asset02_dir.png') right 10% no-repeat,
+    url('../img/bg.png') no-repeat fixed;
+  background-size: auto, auto, cover;
 }
 
 /* painel 1 */
 
-.painel1{
+.painel1 {
   height: 297px;
   width: 285px;
   margin: 150px auto 80px auto;
@@ -15,65 +15,71 @@ body{
   position: relative;
 }
 
-.img-selo_presencial{
-    max-width: 200px;
-    margin-top: 40px;
+.selo {
+  display: flex;
+  justify-content: center;
 }
 
-.btn-painel1{
+.img-selo_presencial {
+  width: 200px;
+  height: 200px;
+  margin: 40px 0px 40px 0px;
+}
+
+.btn-painel1 {
   color: transparent;
-  height: 65px; 
+  height: 65px;
   width: 43px;
   background-color: transparent;
   position: absolute;
   border: none;
 }
 
-.btn-dica1{
+.btn-dica1 {
   background: url('../img/painel01/bt01.png') no-repeat;
   top: 14%;
   left: -12%;
 }
 
-.btn-dica2{
+.btn-dica2 {
   background: url('../img/painel01/bt02.png');
   top: -20%;
   left: 9%;
 }
 
-.btn-dica3{
+.btn-dica3 {
   background: url('../img/painel01/bt03.png');
   top: -20%;
   left: 76%;
 }
 
-.btn-dica4{
+.btn-dica4 {
   background: url('../img/painel01/bt04.png');
   top: 14%;
   left: 99%;
 }
 
-.btn-painel1:hover{
+.btn-painel1:hover {
   transform: scale(1.2);
   transition: 0.5s ease;
 }
 
 /* painel 2 */
 
-.painel2{
-  background: url('../img/painel02/img01_1.png') no-repeat center 80%;
+.painel2 {
+  background: url('../img/painel02/img01.png') no-repeat center 80%;
   height: 500px;
   position: relative;
   padding: 100px 0px 100px 0px;
 }
 
-.btn-painel2{
+.btn-painel2 {
   position: absolute;
   border: none;
   color: transparent;
 }
 
-.btn-imobiliario{
+.btn-imobiliario {
   background: url('../img/painel02/bt01_1.png') no-repeat;
   height: 173px;
   width: 162px;
@@ -81,7 +87,7 @@ body{
   left: 21%;
 }
 
-.btn-documental{
+.btn-documental {
   background: url('../img/painel02/bt02_1.png') no-repeat;
   height: 160px;
   width: 174px;
@@ -89,7 +95,7 @@ body{
   left: 30%;
 }
 
-.btn-avaliador{
+.btn-avaliador {
   background: url('../img/painel02/bt03_1.png') no-repeat;
   height: 161px;
   width: 174px;
@@ -97,7 +103,7 @@ body{
   left: 50%;
 }
 
-.btn-avaliador-processos{
+.btn-avaliador-processos {
   background: url('../img/painel02/bt04_1.png') no-repeat;
   height: 173px;
   width: 162px;
@@ -105,101 +111,154 @@ body{
   left: 60%;
 }
 
-.btn-painel2:hover{
+.btn-painel2:hover {
   transform: scale(1.2);
   transition: 0.4s ease;
 }
 
+.accordion-collapse {
+  background-color: #fff;
+  margin-top: -4%;
+  padding-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
-@media only screen and (max-width:1700px) {
- 
-  body{
-    background: none,
-        none,
-        url('../img/bg.png') no-repeat fixed !important;
-        background-size: unset, unset, cover !important;
+.accordion-item {
+  background-color: unset;
+}
+
+.accordion-header {
+  margin-right: unset;
+}
+
+.accordion-item h2 {
+  margin-left: unset;
+}
+
+.painel2 {
+  display: block;
+}
+
+.painel2-mob {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.bg-escuro .modal-body p {
+  color: #000;
+}
+
+.bg-escuro .modal-body * {
+  color: unset;
+}
+
+.bg-escuro .modal-body li {
+  color: #000;
+}
+
+.bg-escuro .modal-body {
+  color: unset;
+}
+
+.bg-escuro .accordion-item p{
+  color: #000;
+}
+
+@media only screen and (max-width:1440px) {
+
+  body {
+    background: url('../img/asset01_esq.png') left 3% no-repeat,
+      url('../img/asset02_dir.png') right 10% no-repeat,
+      url('../img/bg.png') no-repeat fixed;
+    background-size: 18%, 18%, cover;
   }
 
 }
 
+
+@media only screen and (max-width:1400px) {
+
+  body {
+    background: url('../img/asset01_esq.png') left 3% no-repeat,
+      url('../img/asset02_dir.png') right 10% no-repeat,
+      url('../img/bg.png') no-repeat fixed;
+    background-size: 18%, 18%, cover;
+  }
+
+}
+
+@media only screen and (max-width:1024px) {
+  body {
+    background: none,
+      none,
+      url('../img/bg.png') no-repeat fixed;
+    background-size: auto, auto, cover;
+  }
+
+}
+
+
 @media only screen and (max-width:900px) {
 
-  .painel2{
-    background: none;
+  .painel2 {
     padding: 150px 0px;
   }
-  
-  .btn-imobiliario{
+
+  .btn-imobiliario {
     top: 12%;
     left: 11%;
   }
-  
-  .btn-documental{
-    
+
+  .btn-documental {
+
     top: -5%;
     left: 23%;
   }
-  
-  .btn-avaliador{
-   
+
+  .btn-avaliador {
+
     top: -5%;
     left: 50%;
   }
-  
-  .btn-avaliador-processos{
-    
+
+  .btn-avaliador-processos {
+
     top: 12%;
     left: 64%;
   }
- 
-  
-
 }
 
 @media only screen and (max-width:700px) {
 
-  .painel2{
+  .painel2 {
+    display: none;
+  }
 
-    
-    
+  .painel2-mob {
     display: flex;
     flex-direction: column;
-    align-items:center  ;
-    padding-top: 50px;
-    gap: 50px;
-    height: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8%;
   }
-  
-  .btn-painel2{
-    position: relative;
-    
-  }
-  
-  .btn-imobiliario{
-   
-    top: unset;
-    left: unset;
-  }
-  
-  .btn-documental{
-    
-    top: unset;
-    left: unset;
-  }
-  
-  .btn-avaliador{
-   
-    top: unset;
-    left: unset;
-  }
-  
-  .btn-avaliador-processos{
-    
-    top: unset;
-    left: unset;
-  }
- 
-  
 
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .img-selo_presencial {
+    transform: scale(0.8);
+    margin-top: -5%;
+  }
 }
-

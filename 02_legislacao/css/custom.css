@@ -137,38 +137,23 @@ body {
     color: #004787;
 }
 
-.bg-escuro .accordion-body p{
+.bg-escuro .accordion-body p {
     color: #000;
 }
 
-@media screen and (max-width: 1440px) {
-    .bloco-paralax {
-        width: 100%;
-        height: 400px;
-        background: url('../img/transicao1-mob.png');
-        background-size: cover;
-        background-attachment: fixed !important;
-        background-repeat: no-repeat;
-    }
-
-    .bloco-paralax2 {
-        width: 100%;
-        height: 400px;
-        background: url('../img/transicao2-mob.png');
-        background-size: cover;
-        background-attachment: fixed !important;
-        background-repeat: no-repeat;
-    }
-
-    .bloco-paralax3 {
-        width: 100%;
-        height: 400px;
-        background: url('../img/transicao3-mob.png');
-        background-size: cover;
-        background-attachment: fixed !important;
-        background-repeat: no-repeat;
-    }
+.bg-escuro .modal-body li {
+    color: #000;
 }
+
+.bg-escuro .modal-body p {
+    color: #000;
+}
+
+.bg-escuro .modal-body * {
+    color: #000;
+}
+
+@media screen and (max-width: 1440px) {}
 
 
 @media screen and (max-width: 1200px) {
@@ -245,6 +230,5 @@ body {
     .img-divisa {
         display: none;
     }
-
 
 }

@@ -1,58 +1,90 @@
-body{
-    background: url('../img/elemento_esquerda.png') left 80% no-repeat fixed,
+body {
+  background: url('../img/elemento_esquerda.png') left 80% no-repeat fixed,
     url('../img/elemento_direita.png') 98% 25% no-repeat fixed,
-    url('../img/bg.png') no-repeat fixed  !important;
-    background-size: 15%, 12%, cover !important;
+    url('../img/bg.png') no-repeat fixed;
+  background-size: 15%, 12%, cover;
 }
 
 .mt-n5 {
-    margin-top: -80px;
-  }
+  margin-top: -80px;
+}
 
-  .destaque01{
-    background: url('../img/fundo_destaque.png') no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    height: 500px;
-    align-items: center;
-  }
+.destaque01 {
+  background: url('../img/fundo_destaque.png') no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
 
-  .paragrafodestaque01{
-    max-width: 70%;
-    padding: 10px 0px 0px 10px;
-  }
+.paragrafodestaque01 {
+  max-width: 70%;
+  padding: 10px 0px 0px 10px;
+}
 
-  .paragrafodestaque01 p{
-    width: 70%;
-  }
+.paragrafodestaque01 p {
+  width: 70%;
+}
 
-  .img-selo_presencial{
-    max-width: 200px;
-    margin-top: 40px;
-  }
+.selo {
+  display: flex;
+  justify-content: center;
+}
 
-  .paragrafo-linha-tempo{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-  }
+.img-selo_presencial {
+  width: 200px;
+  height: 200px;
+  margin: 40px 0px 40px 0px;
+}
 
-  
-  
-  @media only screen and (max-width:1400px) {
+.paragrafo-linha-tempo {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
 
-    body{
-      background: none,
-      none,
-      url('../img/bg.png') no-repeat fixed  !important;
-      background-size: unset, unset, cover !important;
+
+
+
+
+@media only screen and (max-width:1440px) {
+  body {
+    background: url('../img/elemento_esquerda.png') left 80% no-repeat fixed,
+      url('../img/elemento_direita.png') 98% 25% no-repeat fixed,
+      url('../img/bg.png') no-repeat fixed;
+    background-size: 15%, 12%, cover;
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px) {
+
+  body {
+    background: none,
+      none,
+      url('../img/bg.png') no-repeat fixed;
+    background-size: auto, auto, cover;
+  }
+}
+
+
+
+
+
+
 @media only screen and (max-width:1000px) {
 
-  .destaque01{
+  .destaque01 {
     flex-direction: column;
     height: auto;
     background-size: cover;
@@ -60,41 +92,48 @@ body{
     width: 500px;
   }
 
-  .paragrafodestaque01{
+  .paragrafodestaque01 {
     max-width: 80%;
     margin: auto;
   }
 
-  .paragrafodestaque01 p{
+  .paragrafodestaque01 p {
     width: 100%;
   }
 
-  
+
 }
 
 @media only screen and (max-width:600px) {
 
-  .destaque01{
-    
+  .destaque01 {
+
     width: 100%;
   }
 
-  .paragrafodestaque01{
+  .paragrafodestaque01 {
     max-width: 80%;
     margin: auto;
   }
 
-  .paragrafodestaque01 p{
+  .paragrafodestaque01 p {
     width: 100%;
   }
 
-  
+
 }
 
 @media only screen and (max-width:768px) {
 
-  .historico{
+  .historico {
     flex-direction: column-reverse;
   }
-  
+
+}
+
+@media only screen and (max-width:500px) {
+  .img-selo_presencial {
+    transform: scale(0.8);
+    margin-top: -5%;
+  }
 }

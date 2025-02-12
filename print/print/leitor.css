@@ -65,7 +65,6 @@
   margin-right: 40px;
 }
 
-
 .pagina .citacao {
   padding-left: 20%;
 }
@@ -780,7 +779,6 @@ p {
 .container {
   max-width: unset;
   width: 100%;
-  padding: 20px;
 }
 
 .icone::before {

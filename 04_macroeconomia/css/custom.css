@@ -293,7 +293,7 @@
 }
 
 .btn-painel-PMCMV.visitado::after {
-    background: url('../../assets/images/check.svg') no-repeat;
+    background: unset !important;
     height: 30px;
     width: 30px;
     position: absolute;
@@ -351,6 +351,7 @@
 .bg-escuro .modal-body * {
     color: #000;
 }
+
 
 .destaque.gradiente li {
     color: #fff;

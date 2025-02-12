@@ -5,9 +5,9 @@
 
 body {
     background:
-        url('../img/elementos_flutuantes.png') right 35% no-repeat fixed,
-        url('../img/bg.png') no-repeat fixed !important;
-    background-size: auto, cover !important;
+        url('../img/elementos_flutuantes.png') right 5% no-repeat,
+        url('../img/bg.png') no-repeat fixed;
+    background-size: auto, cover;
 }
 
 .splide .card .card-body {
@@ -298,7 +298,7 @@ body {
 
 .splide__pagination {
     bottom: .5em;
-    left: 2%;
+    left: 42%;
     padding: 0 1em;
     position: absolute;
     right: 0;
@@ -329,13 +329,17 @@ body {
     color: #fff;
 }
 
+.bg-escuro .fluxograma{
+    color: #fff;
+}
+
 @media screen and (max-width:1440px) {
 
     body {
         background:
-            url('../img/elementos_flutuantes.png') right 50% no-repeat fixed,
-            url('../img/bg.png') no-repeat fixed !important;
-        background-size: 18%, cover !important;
+            url('../img/elementos_flutuantes.png') right 3% no-repeat,
+            url('../img/bg.png') no-repeat fixed;
+        background-size: 18%, cover;
     }
 
     .splide__pagination {
@@ -362,18 +366,18 @@ body {
 
     body {
         background:
-            url('../img/elementos_flutuantes.png') right 33% no-repeat fixed,
-            url('../img/bg.png') no-repeat fixed !important;
-        background-size: 18%, cover !important;
+            url('../img/elementos_flutuantes.png') right 3% no-repeat,
+            url('../img/bg.png') no-repeat fixed;
+        background-size: 18%, cover;
     }
 }
 
 @media screen and (max-width:1366px) {
     body {
         background:
-            url('../img/elementos_flutuantes.png') right 53% no-repeat fixed,
-            url('../img/bg.png') no-repeat fixed !important;
-        background-size: 16%, cover !important;
+            url('../img/elementos_flutuantes.png') right 3% no-repeat,
+            url('../img/bg.png') no-repeat fixed;
+        background-size: 16%, cover;
     }
 }
 
@@ -392,8 +396,8 @@ body {
     body {
         background:
             url('../img/bg.png') no-repeat fixed,
-            none !important;
-        background-size: cover !important;
+            none;
+        background-size: cover, auto;
     }
 }
 

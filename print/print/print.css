@@ -27,8 +27,8 @@
 @media print {
   @page {
     size: A4;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
+    margin-top: 2cm;
+    margin-bottom: 2.5cm;
     margin-right: 1cm;
     margin-left: 2cm;
   }
@@ -398,6 +398,12 @@
   .evitar-quebra,
   .break-inside-avoid {
     page-break-inside: avoid;
+  }
+
+  .pagina {
+    background-color: white;
+    padding: 20px 50px;
+    margin-bottom: 3rem;
   }
 
   /* .splide__pagination {
