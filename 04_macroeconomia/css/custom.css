@@ -194,7 +194,7 @@
 }
 
 .btn-fatores-producao.visitado::after {
-    background: url('../../assets/images/check.svg') no-repeat;
+    background: unset !important; 
     height: 30px;
     width: 30px;
     position: absolute;
@@ -202,6 +202,8 @@
     right: -10px;
     content: '';
 }
+
+
 
 .btn-fatores-producao.visitado::before {
     background: url('../../assets/images/check.svg') no-repeat;

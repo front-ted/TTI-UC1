@@ -1,199 +1,277 @@
-body{
+body {
     background: url('../img/asset01_esq.png') left 3% no-repeat,
         url('../img/asset02_dir.png') right 10% no-repeat,
-        url('../img/bg.png') no-repeat fixed !important;
-        background-size: auto, auto, cover !important;
+        url('../img/bg.png') no-repeat fixed;
+    background-size: auto, auto, cover;
 }
 
-.infografico{
+.infografico {
     background: url('../img/infogr.png') no-repeat;
     background-size: cover;
     position: relative;
-    height: 450px;
-    width: 100%;
+    height: 469px;
+    width: 960px;
     margin: 80px 0px;
 }
 
 
-.balao span{
+.balao span {
     display: block;
     font-weight: bolder;
     text-align: center;
 }
 
-.balao{
+.balao {
     position: absolute;
 }
 
-.balao1{
-    top:7%;
+.balao1 {
+    top: 11%;
     left: 21%;
+    font-size: smaller;
 }
 
-.balao2{
-    top:10%;
+.balao2 {
+    top: 12%;
     left: 58%;
+    font-size: smaller;
 }
 
-.balao3{
-    top:51%;
-    left:4%;
+.balao3 {
+    top: 57%;
+    left: 4%;
+    font-size: smaller;
 }
 
-.balao4{
-    top:48%;
-    left:74%;
+.balao4 {
+    top: 56%;
+    left: 73%;
+    font-size: smaller;
 }
 
-.estrategias{
-    padding: 15%;
+.balao4 .linha-1 {
+    margin-left: 21%;
+}
+
+
+.estrategias {
+    padding: 4%;
     display: flex;
     flex-direction: column;
     gap: 80px;
 }
 
-.linha1{
+.linha1 {
     display: flex;
     justify-content: space-around;
 }
 
-.linha2{
+.linha2 {
     width: fit-content;
 }
 
-.btn-estrategias{
-    width: 200px;
-    height: 80px;
+/* .btn-estrategias {
     text-align: left;
     padding-left: 50px;
-    border-radius: 36px;
+} */
+
+.btn-estrategias.visitado::after {
+    background: url('../../assets/images/check.svg') no-repeat; 
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 188px;
+    right: -10px;
+    content: '';
 }
 
-
-.btn-before-lideranca{position: relative;}
-.btn-before-lideranca::before{
+.btn-fatores-producao.visitado::before {
+    background: url('../../assets/images/check.svg') no-repeat;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 188px;
+    right: -10px;
     content: '';
-    display: block;
-    height: 121px;
-    width: 120px;
-    bottom: -23%;
-    right: 77%;
+}
+
+.btn-lideranca {
+    width: 299px;
+    height: 144px;
     background: url('../img/bt01.png') no-repeat;
-    position: absolute;
-    z-index: 2;
+    border: none;
 }
 
-.btn-before-diferenciacao{position: relative;}
-.btn-before-diferenciacao::before{
-    content: '';
-    display: block;
-    height: 121px;
-    width: 120px;
-    bottom: -23%;
-    right: 77%;
+.btn-diferenciacao{
     background: url('../img/bt02.png') no-repeat;
-    position: absolute;
-    z-index: 2;
+    border: none;
+    width: 335px;
+    height: 144px;
 }
 
-
-.btn-before-estrategias{position: relative;}
-.btn-before-estrategias::before{
-    content: '';
-    display: block;
-    height: 121px;
-    width: 120px;
-    bottom: -23%;
-    right: 59%;
+.btn-foco{
     background: url('../img/bt03.png') no-repeat;
-    position: absolute;
-    z-index: 2;
+    border: none;
+    width: 299px;
+    height: 144px;
 }
+
+.btn-lideranca:hover, .btn-diferenciacao:hover, .btn-foco:hover{
+    transition: 0.5s ease;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1500px) {
+
+    /* body {
+        background: none,
+            none,
+            url('../img/bg.png') no-repeat fixed !important;
+        background-size: unset, unset, cover !important;
+    } */
+
+
+
+}
+
+@media only screen and (max-width:1024px) {
+    body {
+        background: none, none,
+            url('../img/bg-mob.png') no-repeat fixed;
+        background-size: auto, auto, cover;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:950px) {
+
+    .infografico {
+        background: none;
+        position: relative;
+        height: auto;
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .balao {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .balao1 {
+        background: url('../img/balao01.png') center center no-repeat;
+        background-size: 110%;
+        width: 60%;
+        height: 300px;
+        top: unset;
+        left: unset;
+    }
+
+    .balao2 {
+        background: url('../img/balao02.png') center center no-repeat;
+        background-size: 100%;
+        width: 49%;
+        height: 300px;
+        top: unset;
+        left: unset;
+    }
+
+    .balao3 {
+        background: url('../img/balao03.png') center center no-repeat;
+        background-size: 100%;
+        width: 50%;
+        height: 300px;
+        top: unset;
+        left: unset;
+    }
+
+    .balao4 {
+        background: url('../img/balao02.png') center center no-repeat;
+        background-size: 100%;
+        width: 50%;
+        height: 300px;
+        top: unset;
+        left: unset;
+    }
+
+
+
+
+
+
+
+}
+
 
 @media only screen and (max-width:870px) {
-    .linha1{
+    .linha1 {
         flex-direction: column;
         align-items: center;
         gap: 70px;
     }
 
-
     .btn-before-estrategias::before {
-        
-        right: 70%;}
+        right: 70%;
+    }
+
+    .balao1,
+    .balao2,
+    .balao3,
+    .balao4 {
+        font-size: unset;
+    
+    }
+
+
+
+}
+@media only screen and (max-width:500px) {
+.balao1 {
+    background: url('../img/balao01.png') center center no-repeat;
+    background-size: 110%;
+    width: 100%;
+    height: 300px;
+    top: unset;
+    left: unset;
 }
 
-@media only screen and (max-width:950px) {
+.balao2 {
+    background: url('../img/balao02.png') center center no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    top: unset;
+    left: unset;
+}
 
-    .infografico{
-        background: none;
-        position: relative;
-        height: auto;
-        width: 100%;
-        margin: 80px 0px;
-    }
+.balao3 {
+    background: url('../img/balao03.png') center center no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    top: unset;
+    left: unset;
+}
 
-   
-    
-    .balao{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .balao1{
-        background: url('../img/balao01.png') center center no-repeat;
-        background-size: 110%;
-        width: 100%;
-        height: 300px;
-        top:unset;
-        left: unset;
-    }
-    
-    .balao2{
-        background: url('../img/balao02.png') center center no-repeat;
-        background-size: 100%;
-        width: 100%;
-        height: 300px;
-        top:unset;
-        left: unset;
-    }
-    
-    .balao3{
-        background: url('../img/balao03.png') center center no-repeat;
-        background-size: 100%;
-        width: 100%;
-        height: 300px;
-        top:unset;
-        left:unset;
-    }
-    
-    .balao4{
-        background: url('../img/balao04.png') center center no-repeat;
-        background-size: 100%;
-        width: 100%;
-        height: 300px;
-        top:unset;
-        left:unset;
-    }
-    
-
-    
-   
-    
-     
-  }
-
-@media only screen and (max-width:1500px) {
-
-    body{
-        background: none,
-            none,
-            url('../img/bg.png') no-repeat fixed !important;
-            background-size: unset, unset, cover !important;
-    }
-   
-    
-     
-  }
+.balao4 {
+    background: url('../img/balao02.png') center center no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    top: unset;
+    left: unset;
+}
+}
