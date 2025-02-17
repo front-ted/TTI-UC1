@@ -329,7 +329,7 @@ body {
     color: #fff;
 }
 
-.bg-escuro .fluxograma{
+.bg-escuro .fluxograma {
     color: #fff;
 }
 
@@ -542,6 +542,14 @@ body {
         position: absolute;
         right: 0;
         z-index: 1;
+    }
+
+    .painel-ferramentas .botao {
+        width: 280px;
+    }
+
+    .painel-ferramentas {
+        gap: 45px;
     }
 
 }

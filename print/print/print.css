@@ -413,4 +413,9 @@
   .splide__list li {
     list-style: none !important;
   } */
+
+  .pagina .img-maior {
+    display: inline-block;
+    max-width: 600px !important;
+  }
 }

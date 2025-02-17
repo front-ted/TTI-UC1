@@ -70,6 +70,10 @@
   min-height: 330px;
 }
 
+.pad-top{
+  padding-top: 24%;
+}
+
 .destaques-centro {
   margin-top: -9%;
 }
@@ -136,8 +140,6 @@
 }
 
 
-
-
 @media only screen and (max-width:1400px) {}
 
 @media only screen and (max-width:1024px) {
@@ -146,7 +148,7 @@
     background:
       none,
       none,
-      url('../img/bg_blocos1_3.png') fixed;
+      url('../img/bg_bloco2.png');
     padding: 50px 0px;
     background-size: cover;
   }
@@ -155,7 +157,7 @@
     background:
       none,
       none,
-      url('../img/bg_bloco2.png') fixed;
+      url('../img/bg_bloco2.png');
     padding: 50px 0px;
     background-size: cover;
   }
@@ -164,7 +166,7 @@
     background:
       none,
       none,
-      url('../img/bg_blocos1_3.png') fixed;
+      url('../img/bg_blocos1_3.png');
     padding: 50px 0px;
     background-size: cover;
   }
@@ -246,9 +248,11 @@
 
   .destaque1 {
     min-height: 240px;
+    margin: 66px 0px;
   }
 
   .destaques-centro {
     margin-top: -20%;
   }
 }
+

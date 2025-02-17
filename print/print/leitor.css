@@ -943,3 +943,7 @@ iframe.youtube-pl {
 .pagina .modal-dialog {
   margin: unset !important;
 }
+.pagina .img-maior {
+  display: inline-block;
+  max-width: 75% !important;
+}
