@@ -1,23 +1,24 @@
 body {
-    background: url('../img/asset01_esq.png') left 3% no-repeat ,
+    background: url('../img/asset01_esq.png') left 3% no-repeat,
         url('../img/asset02_dir.png') right 7% no-repeat,
         url('../img/bg.png') no-repeat fixed;
     background-size: auto, auto, cover;
 }
 
-/* .infografico {
-    background: url('../img/infogr.png') no-repeat;
+.infografico {
+    background: url('../img/balao-bg-2.png') no-repeat;
     background-size: cover;
     position: relative;
     height: 469px;
-    width: 960px;
+    width: 1098px;
     margin: 80px 0px;
-} */
+    margin-left: -11%;
+}
 
-.infografico{
+/* .infografico {
     margin-left: -12%;
     margin-bottom: 3%;
-}
+} */
 
 .balao span {
     display: block;
@@ -30,33 +31,24 @@ body {
 }
 
 .balao1 {
-    top: 11%;
-    left: 21%;
-    font-size: smaller;
+    top: 9%;
+    left: 23%;
 }
 
 .balao2 {
-    top: 12%;
-    left: 58%;
-    font-size: smaller;
+    top: 8%;
+    left: 57%;
 }
 
 .balao3 {
-    top: 57%;
-    left: 4%;
-    font-size: smaller;
+    top: 52%;
+    left: 3%;
 }
 
 .balao4 {
-    top: 56%;
-    left: 73%;
-    font-size: smaller;
+    top: 54%;
+    left: 70.8%;
 }
-
-.balao4 .linha-1 {
-    margin-left: 21%;
-}
-
 
 .estrategias {
     padding: 4%;
@@ -237,10 +229,9 @@ body {
         background-size: auto, auto, cover;
     }
 
-    .infografico {
+    .infografico{
         transform: scale(0.9);
-    } 
-
+    }
 }
 
 @media only screen and (max-width:950px) {
